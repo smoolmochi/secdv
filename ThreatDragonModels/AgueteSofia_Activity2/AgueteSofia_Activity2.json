@@ -412,8 +412,8 @@
           },
           {
             "position": {
-              "x": 711,
-              "y": 210
+              "x": 600,
+              "y": 220
             },
             "size": {
               "width": 90,
@@ -532,8 +532,8 @@
           },
           {
             "position": {
-              "x": 701,
-              "y": 486
+              "x": 700,
+              "y": 430
             },
             "size": {
               "width": 110,
@@ -977,6 +977,52 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Query With Feedback Comments",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Insert Query With Feedback Comments"
+            ],
+            "id": "73e4fcbd-e2e6-47f6-ad3c-f414bc743b7d",
+            "source": {
+              "x": 400,
+              "y": 500
+            },
+            "target": {
+              "cell": "e1707349-1a20-43fa-beb0-fb3be673051a",
+              "port": "ddcd0463-b6e7-4217-af65-4b7e66c72f2d"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
@@ -1175,6 +1221,52 @@
                 "y": 480
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Successful",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Insert Successful"
+            ],
+            "id": "77eaff34-ed2c-4100-8a76-bdc3dfc74843",
+            "source": {
+              "x": 710,
+              "y": 500
+            },
+            "target": {
+              "cell": "bb1f2bc2-d4fa-4bbf-b406-f4c24750e17e",
+              "port": "361811b3-eac3-451c-bd56-89d2c410c9e1"
+            }
           }
         ]
       }
