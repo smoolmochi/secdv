@@ -956,18 +956,23 @@
               "cell": "bb1f2bc2-d4fa-4bbf-b406-f4c24750e17e",
               "port": "ddcd0463-b6e7-4217-af65-4b7e66c72f2d"
             },
-            "vertices": [
-              {
-                "x": 150,
-                "y": 541
-              },
-              {
-                "x": 240,
-                "y": 551
-              }
-            ],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -1005,7 +1010,21 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 110,
+                "y": 531
+              },
+              {
+                "x": 150,
+                "y": 541
+              },
+              {
+                "x": 240,
+                "y": 551
+              }
+            ]
           },
           {
             "shape": "flow",
