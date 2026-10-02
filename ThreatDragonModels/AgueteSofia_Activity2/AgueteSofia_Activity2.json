@@ -1081,24 +1081,6 @@
               "x": 140,
               "y": 630
             },
-            "vertices": [
-              {
-                "x": 120,
-                "y": 180
-              },
-              {
-                "x": 110,
-                "y": 190
-              },
-              {
-                "x": 70,
-                "y": 260
-              },
-              {
-                "x": 70,
-                "y": 480
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1118,53 +1100,25 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 180
+              },
+              {
+                "x": 110,
+                "y": 190
+              },
+              {
+                "x": 70,
+                "y": 260
+              },
+              {
+                "x": 70,
+                "y": 480
               }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 15,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "2331fbe4-ca45-4e30-8bb0-6727f1e9b2ea",
-            "source": {
-              "x": 740,
-              "y": 280
-            },
-            "target": {
-              "cell": "f5d0c811-6a80-41c0-bcb8-5a38ea68d0c8",
-              "port": "361811b3-eac3-451c-bd56-89d2c410c9e1"
-            }
+            ]
           }
         ]
       }
