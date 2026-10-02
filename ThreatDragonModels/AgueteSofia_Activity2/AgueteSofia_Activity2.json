@@ -31,24 +31,29 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "crossingFlows": [
+                "ebc7cea2-1c55-4b1d-9c69-1cf65c287e4c",
+                "2da3e4db-c399-4ef8-b870-4739f9ceb432"
+              ],
+              "containedElements": [
+                "f5d0c811-6a80-41c0-bcb8-5a38ea68d0c8"
+              ]
             },
             "labels": [
               "Trust Boundary"
             ],
-            "id": "3aef052a-200a-4cc0-9ce6-4c85af81eba8",
+            "id": "133337fc-929e-45b6-b84e-04d73f63cd5c",
             "source": {
-              "x": 240,
-              "y": 200
+              "x": 230,
+              "y": 120
             },
             "target": {
-              "x": 440,
-              "y": 200
+              "x": 540,
+              "y": 130
             },
             "vertices": [
               {
-                "x": 340,
+                "x": 350,
                 "y": 300
               }
             ]
@@ -733,7 +738,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "133337fc-929e-45b6-b84e-04d73f63cd5c"
+              ]
             },
             "labels": [
               "Auth \nVerification"
@@ -940,7 +947,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "133337fc-929e-45b6-b84e-04d73f63cd5c"
+              ]
             },
             "labels": [
               "Verified"
