@@ -722,58 +722,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Feedback Comments",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Insert Feedback Comments"
-            ],
-            "id": "fe7bea4b-c864-4232-9338-d9c097936a07",
-            "source": {
-              "x": -7,
-              "y": 541
-            },
-            "target": {
-              "cell": "bb1f2bc2-d4fa-4bbf-b406-f4c24750e17e",
-              "port": "8172b364-b6c0-4831-8c6b-41708fccb923"
-            },
-            "vertices": [
-              {
-                "x": 170,
-                "y": 541
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Auth \nVerification",
               "description": "",
               "outOfScope": false,
@@ -904,6 +852,62 @@
               "port": "ddcd0463-b6e7-4217-af65-4b7e66c72f2d"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Feedback Comments",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Insert Feedback Comments"
+            ],
+            "id": "fe7bea4b-c864-4232-9338-d9c097936a07",
+            "source": {
+              "x": -7,
+              "y": 541
+            },
+            "target": {
+              "cell": "bb1f2bc2-d4fa-4bbf-b406-f4c24750e17e",
+              "port": "ddcd0463-b6e7-4217-af65-4b7e66c72f2d"
+            },
+            "vertices": [
+              {
+                "x": 150,
+                "y": 541
+              },
+              {
+                "x": 240,
+                "y": 551
+              }
+            ]
           },
           {
             "shape": "flow",
