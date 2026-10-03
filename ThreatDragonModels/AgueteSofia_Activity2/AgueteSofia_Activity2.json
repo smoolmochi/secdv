@@ -529,81 +529,6 @@
               "cell": "f5d0c811-6a80-41c0-bcb8-5a38ea68d0c8",
               "port": "68fdab71-e17c-429a-ba38-ec012c18de27"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": 590,
@@ -743,61 +668,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Query With Feedback Comments",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Insert Query With Feedback Comments"
-            ],
-            "id": "73e4fcbd-e2e6-47f6-ad3c-f414bc743b7d",
-            "source": {
-              "cell": "bb1f2bc2-d4fa-4bbf-b406-f4c24750e17e"
-            },
-            "target": {
-              "cell": "96896058-3765-40a0-b250-c7e222a0adb8",
-              "port": "e24325eb-0d4d-401b-ba23-bfd43889251c"
-            },
-            "vertices": [
-              {
-                "x": 430,
-                "y": 500
-              },
-              {
-                "x": 570,
-                "y": 480
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Insert Feedback Comments",
               "description": "",
               "outOfScope": false,
@@ -839,6 +709,61 @@
               {
                 "x": 240,
                 "y": 551
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Query With Feedback Comments",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Insert Query With Feedback Comments"
+            ],
+            "id": "73e4fcbd-e2e6-47f6-ad3c-f414bc743b7d",
+            "source": {
+              "cell": "bb1f2bc2-d4fa-4bbf-b406-f4c24750e17e"
+            },
+            "target": {
+              "cell": "96896058-3765-40a0-b250-c7e222a0adb8",
+              "port": "e24325eb-0d4d-401b-ba23-bfd43889251c"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 480
+              },
+              {
+                "x": 570,
+                "y": 460
               }
             ]
           },
@@ -1211,7 +1136,7 @@
           },
           {
             "position": {
-              "x": 660,
+              "x": 640,
               "y": 501
             },
             "size": {
@@ -1341,7 +1266,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Authorization Boundary",
+              "name": "Authorization/Application \nBoundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1349,7 +1274,7 @@
               "containedElements": []
             },
             "labels": [
-              "Authorization Boundary"
+              "Authorization/Application \nBoundary"
             ],
             "id": "9dbfbfd5-a02a-4485-a0ae-bda9c5f6f795",
             "source": {
