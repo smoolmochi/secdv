@@ -504,7 +504,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Auth \nVerificatio",
+              "name": "Auth \nVerification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -518,7 +518,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Auth \nVerificatio"
+              "Auth \nVerification"
             ],
             "id": "796d1b5a-1195-4b74-a1a1-962b91eb111c",
             "source": {
@@ -534,7 +534,17 @@
                 "x": 400,
                 "y": 350
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
