@@ -535,6 +535,16 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -1091,40 +1101,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 19,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Authorization/Application \nBoundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Authorization/Application \nBoundary"
-            ],
-            "id": "9dbfbfd5-a02a-4485-a0ae-bda9c5f6f795",
-            "source": {
-              "x": 220,
-              "y": 150
-            },
-            "target": {
-              "x": 500,
-              "y": 260
-            },
-            "vertices": [
-              {
-                "x": 330,
-                "y": 290
-              }
-            ]
           },
           {
             "shape": "flow",
