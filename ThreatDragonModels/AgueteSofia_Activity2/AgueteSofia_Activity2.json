@@ -529,12 +529,6 @@
               "cell": "f5d0c811-6a80-41c0-bcb8-5a38ea68d0c8",
               "port": "8172b364-b6c0-4831-8c6b-41708fccb923"
             },
-            "vertices": [
-              {
-                "x": 400,
-                "y": 350
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -544,7 +538,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 350
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -807,48 +807,6 @@
               {
                 "x": 100,
                 "y": 590
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 13,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Application/Data \nBoundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Application/Data \nBoundary"
-            ],
-            "id": "a5663889-3b5e-41b2-b075-1c7e3a304bd9",
-            "source": {
-              "x": 590,
-              "y": 180
-            },
-            "target": {
-              "x": 590,
-              "y": 610
-            },
-            "vertices": [
-              {
-                "x": 530,
-                "y": 260
-              },
-              {
-                "x": 490,
-                "y": 370
-              },
-              {
-                "x": 510,
-                "y": 460
               }
             ]
           },
@@ -1265,6 +1223,40 @@
               "cell": "216b2a8d-06d7-4c3f-8a54-e75cc297f9f5",
               "port": "aa087e93-d088-4f02-a5d1-ca1fee2c3c29"
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 22,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Application/Data \nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Application/Data \nBoundary"
+            ],
+            "id": "78642952-de5b-48c1-af79-514eb1ded7b0",
+            "source": {
+              "x": 560,
+              "y": 100
+            },
+            "target": {
+              "x": 560,
+              "y": 640
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 340
+              }
+            ]
           }
         ]
       }
