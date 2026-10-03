@@ -20,6 +20,40 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Application/Authorization \nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Application/Authorization \nBoundary"
+            ],
+            "id": "7531cef6-ca2a-4aab-a7e8-95575c7b9a8a",
+            "source": {
+              "x": 160,
+              "y": 240
+            },
+            "target": {
+              "x": 490,
+              "y": 250
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 290
+              }
+            ]
+          },
+          {
             "position": {
               "x": 280,
               "y": 140
@@ -528,26 +562,6 @@
             "target": {
               "cell": "f5d0c811-6a80-41c0-bcb8-5a38ea68d0c8",
               "port": "8172b364-b6c0-4831-8c6b-41708fccb923"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             },
             "vertices": [
               {
